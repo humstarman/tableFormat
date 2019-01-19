@@ -3,7 +3,7 @@ package tableFormat
 import (
 	"fmt"
 
-	"github.com/pkg/errors"
+	//"github.com/pkg/errors"
 	"strings"
 )
 
