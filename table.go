@@ -1,6 +1,6 @@
-package tableFormat 
+package tableFormat
 
 type Table struct {
-	V0  string
-	V1  string
+	V0 string
+	V1 string
 }

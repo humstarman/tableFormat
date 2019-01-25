@@ -1,4 +1,4 @@
-package tableFormat 
+package tableFormat
 
 import (
 	"fmt"
@@ -30,9 +30,9 @@ func AssignValue(v []string, idx int) string {
 
 func FromTableToString(t *Table) (string, error) {
 	/*
-	v := ""
-	v = PlusNonNull(v, t.V0)
-	v = PlusNonNull(v, t.V1)
+		v := ""
+		v = PlusNonNull(v, t.V0)
+		v = PlusNonNull(v, t.V1)
 	*/
 	v := ""
 
@@ -46,14 +46,14 @@ func FromTableToString(t *Table) (string, error) {
 
 func FromStringToTable(str string) (*Table, error) {
 	/*
-	if str == "" {
-		err := errors.New("empty strings")
-		return nil, err
-	}
-	t := Table{}
-	v := strings.Split(str, Sep)
-	t.V0 = AssignValue(v, 0)
-	t.V1 = AssignValue(v, 1)
+		if str == "" {
+			err := errors.New("empty strings")
+			return nil, err
+		}
+		t := Table{}
+		v := strings.Split(str, Sep)
+		t.V0 = AssignValue(v, 0)
+		t.V1 = AssignValue(v, 1)
 	*/
 	t := Table{}
 	v := strings.Split(str, Sep)
